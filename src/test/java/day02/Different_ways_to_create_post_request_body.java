@@ -39,8 +39,8 @@ public class Different_ways_to_create_post_request_body {
 		data.put("location", "France");
 		data.put("phone", "123456");
 		
-		String CourseArr [] = {"C", "C++"};
-		data.put("courses", CourseArr);
+		String courseArr [] = {"C", "C++"};
+		data.put("courses", courseArr);
 		
 		
 		given()
